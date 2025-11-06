@@ -58,17 +58,18 @@ Bayesian Optimization aims to efficiently find new high-performing alloys within
 * **Candidate Search Space:** A combinatorial search space of **100,000** new alloys was generated. A subset of **1,000** candidates was featurized and scaled for the initial BO step.
 * **Prediction & Ranking:** Candidates were ranked by their calculated EI score to identify the most promising alloys for future synthesis.
 
-#### 🔎 Top 5 New Alloy Candidates (Ranked by Expected Improvement)
+### Top 5 New Alloy Candidates (Ranked by Expected Improvement)
 
 These candidates represent the highest potential for improved Specific Strength based on the current model's predictions and uncertainty estimates.
 
-| Rank | Formula | Predicted Specific Strength ($\text{MP} \cdot \text{cm}^3 \cdot \text{g}^{-1}$) | Expected Improvement (EI) | Uncertainty (Std) |
-| :---: | :--- | :---: | :---: | :---: |
-| 1 | $\text{Nb}_{82}\text{Al}_1\text{Co}_1\text{Cr}_{16}$ | 186.32 | $3.40 \times 10^{-5}$ | 28.13 |
-| 2 | $\text{Nb}_{81}\text{Al}_1\text{Co}_1\text{Cr}_{17}$ | 187.84 | $3.24 \times 10^{-5}$ | 27.74 |
-| 3 | $\text{Nb}_{82}\text{Al}_2\text{Co}_{13}\text{Cr}_3$ | 193.65 | $1.84 \times 10^{-5}$ | 25.82 |
-| 4 | $\text{Nb}_{90}\text{Al}_2\text{Co}_7\text{Cr}_1$ | 178.27 | $1.55 \times 10^{-5}$ | 28.87 |
-| 5 | $\text{Nb}_{82}\text{Al}_1\text{Co}_2\text{Cr}_{15}$ | 187.88 | $1.41 \times 10^{-5}$ | 26.74 |
+| Rank | Formula | Predicted Specific Strength (MP·cm³·g⁻¹) | Expected Improvement (EI) | Uncertainty (Std) |
+|------|----------|------------------------------------------|---------------------------|-------------------|
+| 1 | Nb₈₂Al₁Co₁Cr₁₆ | 186.32 | 3.40 × 10⁻⁵ | 28.13 |
+| 2 | Nb₈₁Al₁Co₁Cr₁₇ | 187.84 | 3.24 × 10⁻⁵ | 27.74 |
+| 3 | Nb₈₂Al₂Co₁₃Cr₃ | 193.65 | 1.84 × 10⁻⁵ | 25.82 |
+| 4 | Nb₉₀Al₂Co₇Cr₁ | 178.27 | 1.55 × 10⁻⁵ | 28.87 |
+| 5 | Nb₈₂Al₁Co₂Cr₁₅ | 187.88 | 1.41 × 10⁻⁵ | 26.74 |
+
 ---
 
 ### 4. Materials Informatics Space Visualization (t-SNE)
