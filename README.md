@@ -69,7 +69,6 @@ These candidates represent the highest potential for improved Specific Strength 
 | 3 | $\text{Nb}_{82}\text{Al}_2\text{Co}_{13}\text{Cr}_3$ | 193.65 | $1.84 \times 10^{-5}$ | 25.82 |
 | 4 | $\text{Nb}_{90}\text{Al}_2\text{Co}_7\text{Cr}_1$ | 178.27 | $1.55 \times 10^{-5}$ | 28.87 |
 | 5 | $\text{Nb}_{82}\text{Al}_1\text{Co}_2\text{Cr}_{15}$ | 187.88 | $1.41 \times 10^{-5}$ | 26.74 |
-
 ---
 
 ### 4. Materials Informatics Space Visualization (t-SNE)
